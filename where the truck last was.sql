@@ -1,0 +1,1 @@
+select emailTime, emailTruck, emailLocation, emailStatus from email group by emailTruck, emailLocation, emailStatus HAVING  emailTruck='T3-Trailer'  order by idemail desc limit 1
